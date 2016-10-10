@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Usa.Smart.WindowsRuntime.Reactive</id>
+    <version>0.1.0</version>
+    <title>Smart.WindowsRuntime.Reactive .NET</title>
+    <authors>machi_pon</authors>
+    <owners>machi_pon</owners>
+    <description>Smart UWP support library for .NET</description>
+    <releaseNotes></releaseNotes>
+    <summary>Smart UWP support library for .NET</summary>
+    <projectUrl>https://github.com/usausa/Smart-Net-WindowsRuntime</projectUrl>
+    <copyright></copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="System.Reactive" version="3.0.0" />
+      <dependency id="Usa.Smart.Core" version="0.5.1" />
+      <dependency id="Usa.Smart.Reactive" version="0.2.0" />
+      <dependency id="Usa.Smart.WindowsRuntime" version="0.0.2" />
+    </dependencies>
+    <tags>smart uwp mvvm rx</tags>
+  </metadata>
+  <files>
+    <!-- .UWP 10.0 -->
+    <file src="Smart.WindowsRuntime.Reactive\bin\Release\Smart.WindowsRuntime.Reactive.dll" target="lib\uap10.0\Smart.WindowsRuntime.Reactive.dll" />
+    <file src="Smart.WindowsRuntime.Reactive\bin\Release\Smart.WindowsRuntime.Reactive.pdb" target="lib\uap10.0\Smart.WindowsRuntime.Reactive.pdb" />
+    <file src="Smart.WindowsRuntime.Reactive\bin\Release\Smart.WindowsRuntime.Reactive.xml" target="lib\uap10.0\Smart.WindowsRuntime.Reactive.xml" />
+  </files>
+</package>

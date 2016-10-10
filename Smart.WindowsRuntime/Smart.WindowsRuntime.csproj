@@ -7,7 +7,7 @@
     <ProjectGuid>{E809FAAC-8005-430B-B83B-48DEE455FC96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Smart.WindowsRuntime</RootNamespace>
+    <RootNamespace>Smart</RootNamespace>
     <AssemblyName>Smart.WindowsRuntime</AssemblyName>
     <DefaultLanguage>ja-JP</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
@@ -26,6 +26,7 @@
     <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\Smart.WindowsRuntime.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +36,9 @@
     <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\Smart.WindowsRuntime.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <DocumentationFile>bin\Release\Smart.WindowsRuntime.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
@@ -108,8 +112,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Xaml\Data\NotConverter.cs" />
+    <Compile Include="UI\Xaml\Input\DelegateCommand.cs" />
+    <Compile Include="UI\Xaml\Interactivity\MessageAction.cs" />
+    <Compile Include="UI\Xaml\Interactivity\MessageBehavior.cs" />
+    <Compile Include="UI\Xaml\Messaging\CancelMessage.cs" />
+    <Compile Include="UI\Xaml\Interactivity\IMessageAction.cs" />
+    <Compile Include="UI\Xaml\Messaging\IMessenger.cs" />
+    <Compile Include="UI\Xaml\Messaging\Messenger.cs" />
+    <Compile Include="UI\Xaml\Messaging\MessengerEventArgs.cs" />
+    <Compile Include="UI\Xaml\ViewModels\ViewModelBase.cs" />
     <EmbeddedResource Include="Properties\Smart.WindowsRuntime.rd.xml" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
