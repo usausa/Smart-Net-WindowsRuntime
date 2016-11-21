@@ -1,10 +1,10 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0",
+    "Microsoft.Xaml.Behaviors.Uwp.Managed": "2.0.0",
     "StyleCop.Analyzers": "1.0.0",
     "System.Reactive": "3.0.0",
-    "Usa.Smart.Core": "0.5.1",
+    "Usa.Smart.Core": "0.5.2",
     "Usa.Smart.Reactive": "0.2.0"
   },
   "frameworks": {
