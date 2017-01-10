@@ -4,8 +4,8 @@
     "Microsoft.Xaml.Behaviors.Uwp.Managed": "2.0.0",
     "StyleCop.Analyzers": "1.0.0",
     "System.Reactive": "3.0.0",
-    "Usa.Smart.Core": "0.5.2",
-    "Usa.Smart.Reactive": "0.2.0"
+    "Usa.Smart.Core": "0.6.1",
+    "Usa.Smart.Reactive": "0.2.1"
   },
   "frameworks": {
     "uap10.0": {}

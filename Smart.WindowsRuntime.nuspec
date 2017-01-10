@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Usa.Smart.WindowsRuntime</id>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <title>Smart.WindowsRuntime .NET</title>
     <authors>machi_pon</authors>
     <owners>machi_pon</owners>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="Usa.Smart.Core" version="0.5.2" />
+      <dependency id="Usa.Smart.Core" version="0.6.1" />
     </dependencies>
     <tags>smart uwp mvvm</tags>
   </metadata>
